@@ -29,7 +29,7 @@ const Navbar = () => {
                         </li>
                     ))
                 }
-                <button>Sign Up</button>
+                <button>Registrarse</button>
             </ul>
         </nav>
     );

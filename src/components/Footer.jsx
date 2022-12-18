@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="top">
                 <div className='top-title'>
                     <h1>ToGo</h1>
-                    <p>Choose your favourite destination ✈️</p>
+                    <p>Elige tu destino favorito ✈️</p>
                 </div>
                 <div>
                     <a href="/">
@@ -25,33 +25,30 @@ const Footer = () => {
             <div className="bottom">
 
                 <div>
-                    <h4>Project</h4>
-                    <a href="/">Changelog</a>
-                    <a href="/">Status</a>
-                    <a href="/">License</a>
-                    <a href="/">All Versions</a>
+                    <h4>Proyecto</h4>
+                    <a href="/">Registro</a>
+                    <a href="/">Estado</a>
+                    <a href="/">Licencia</a>
                 </div>
 
                 <div>
-                    <h4>Community</h4>
+                    <h4>Comunidad</h4>
                     <a href="/">GitHub</a>
-                    <a href="/">Issues</a>
-                    <a href="/">Project</a>
+                    <a href="/">Proyecto</a>
                     <a href="/">Twitter</a>
                 </div>
 
                 <div>
-                    <h4>Help</h4>
-                    <a href="/">Support</a>
-                    <a href="/">Troubleshooting</a>
-                    <a href="/">Contact Us</a>
+                    <h4>Ayuda</h4>
+                    <a href="/">Soporte</a>
+                    <a href="/">Contactanos</a>
                 </div>
 
                 <div>
-                    <h4>Others</h4>
-                    <a href="/">Terms of Service</a>
-                    <a href="/">Privacy Policy</a>
-                    <a href="/">License</a>
+                    <h4>Otros</h4>
+                    <a href="/">Terminos de servicio</a>
+                    <a href="/">Política de privacidad</a>
+                    <a href="/">Licencia</a>
                 </div>
 
             </div>

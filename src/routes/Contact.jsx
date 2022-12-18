@@ -9,7 +9,7 @@ const Contact = () => {
             <Hero
                 cName="hero-mid"
                 heroImg={ContactImg}
-                title="Contact"
+                title="Contacto"
                 btnClass="hide"
             />
             <ContactForm />

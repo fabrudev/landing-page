@@ -10,8 +10,8 @@ import './DestinationStyles.css'
 const Destination = () => {
     return (
         <div className='destination'>
-            <h1>Popular Destinations</h1>
-            <p>Think, believe and dream.</p>
+            <h1>Destinos Populares</h1>
+            <p>Piensa, cree y sueña.</p>
 
             <DestinationData
                 heading="Puerto Iguazú, Misiones"

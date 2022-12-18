@@ -10,9 +10,9 @@ const Home = () => {
             <Hero
                 cName="hero"
                 heroImg={HomeImg}
-                title="Go where you feel free."
-                text="Choose your favourite destination ✈️"
-                buttonText="Travel Plan"
+                title="Ve donde te sientas libre."
+                text="Elige tu destino favorito ✈️"
+                buttonText="Plan de Viaje"
                 url="/"
                 btnClass="show"
             />

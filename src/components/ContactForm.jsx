@@ -20,13 +20,19 @@ const ContactForm = () => {
 
     return (
         <div className='form-container'>
-            <h1>Send a message to us!</h1>
+            <h1>Envianos un mensaje!</h1>
             <form>
 
                 <input
-                    placeholder='Name'
+                    placeholder='Nombre'
                     onChange={e => setName(e.target.value)}
                     value={name}
+                />
+
+                <input 
+                    placeholder='Apellido'
+                    onChange={e => setSubject(e.target.value)}
+                    value={subject}
                 />
 
                 <input 
@@ -36,26 +42,21 @@ const ContactForm = () => {
                     value={email}
                 />
 
-                <input 
-                    placeholder='Subject'
-                    onChange={e => setSubject(e.target.value)}
-                    value={subject}
-                />
 
                 <textarea 
-                    placeholder='Message'
+                    placeholder='Mensaje'
                     rows="4"
                     onChange={e => setMsg(e.target.value)}
                     value={msg}
                 />
 
                 <button onClick={send}>
-                    Send Message
+                    Enviar Mensaje
                 </button>
 
             </form>
 
-            <p className={ isSent ? "show-msg" : "hide-msg"}>Message sent succesfully.</p>
+            <p className={ isSent ? "show-msg" : "hide-msg"}>Mensaje enviado con éxito!</p>
 
         </div>
     );
